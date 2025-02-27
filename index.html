@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KOUSHIK G</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon" />
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css" />
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body>
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="KOUSHIK" width="80" />
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="KOUSHIK G">
+            KOUSHIK G | FULL STACK DEV
+          </h1>
+
+          <div class="flex items-center gap-4">
+            <p class="title"> <span class="dot mr-2"></span>OPEN TO WORK </p>
+            <div class="mt-1">
+              <ul class="social-list" style="transform: scale(1.1);">
+
+                <li class="social-item ">
+                  <a href="https://www.linkedin.com/in/gkoushik27/" data-link class="social-link" target="_blank">
+                    <ion-icon name="logo-linkedin" title="linkedin"></ion-icon>
+                  </a>
+                </li>
+
+                <li class="social-item">
+                  <a href="https://github.com/koushikg04/" class="social-link" target="_blank">
+                    <ion-icon name="logo-github" title="github"></ion-icon>
+                  </a>
+                </li>
+
+                <li class="social-item">
+                  <a href="mailto:koushikgoffical04@gmail.com" class="social-link">
+                    <ion-icon name="mail"></ion-icon>
+                  </a>
+                </li>
+
+                <li class="social-item ">
+                  <a href="https://drive.google.com/file/d/1qiO1xppU5eJyRDBv9K5RqPbP84b9Z7Mn/view?usp=sharing"
+                    class="social-link" target="_blank">
+                    <ion-icon name="document"></ion-icon> </a>
+                </li>
+
+                <li class="social-item ">
+                  <a href="https://www.google.com/maps/place/bengaluru" class="social-link" target="_blank">
+                    <ion-icon name="location"></ion-icon>
+                  </a>
+                </li>
+
+
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>MERN</span>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+      </div>
+    </aside>
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <button class="navbar-link active" data-nav-link>ABOUT</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>RESUME</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link " data-nav-link>PROJECTS</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>CONTACT</button>
+          </li>
+        </ul>
+      </nav>
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio " data-page="projects">
+        <header>
+          <h2 class="h2 article-title">PROJECTS</h2>
+        </header>
+        <section class="projects">
+          <ul class="filter-list">
+            <div class="filter-buttons">
+
+            </div>
+          </ul>
+
+          <div class="filter-select-box" data-select>
+            <ul class="select-list">
+              <div class="filter-buttons">
+
+              </div>
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+            <li class="project-item active" data-filter-item data-category="FULLSTACK">
+              <div class="project-overlay"></div>
+              <div class="project-links">
+                <a href="https://github.com/KOUSHIKG04/Convo-Chat-Application"
+                  data-link="https://github.com/KOUSHIKG04/Convo-Chat-Application" class="project-btn github-btn"
+                  title="Github" target="_blank" data-code-btn="">
+                  <svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M10,0.3c-5.4,0-9.8,4.4-9.8,9.8c0,4.3,2.8,8,6.7,9.2c0.5,0.1,0.7-0.2,0.7-0.5c0-0.2,0-0.9,0-1.7c-2.7,0.6-3.3-1.3-3.3-1.3 c-0.4-1.1-1.1-1.4-1.1-1.4c-0.9-0.6,0.1-0.6,0.1-0.6c1,0.1,1.5,1,1.5,1c0.9,1.5,2.3,1.1,2.9,0.8c0.1-0.6,0.3-1.1,0.6-1.3 c-2.2-0.2-4.4-1.1-4.4-4.8c0-1.1,0.4-1.9,1-2.6C4.7,7,4.4,6,4.9,4.7c0,0,0.8-0.3,2.7,1c0.8-0.2,1.6-0.3,2.4-0.3c0.8,0,1.6,0.1,2.4,0.3 c1.9-1.3,2.7-1,2.7-1c0.5,1.3,0.2,2.3,0.1,2.5c0.6,0.7,1,1.5,1,2.6c0,3.7-2.3,4.6-4.4,4.8c0.3,0.3,0.6,0.9,0.6,1.8c0,1.3,0,2.4,0,2.7 c0,0.3,0.2,0.6,0.7,0.5c3.9-1.3,6.7-5,6.7-9.2C19.8,4.7,15.4,0.3,10,0.3z" />
+                  </svg>
+
+                </a>
+                <a href="https://convo-chat-application.onrender.com/"
+                  data-link="https://convo-chat-application.onrender.com/" class="project-btn live-btn" title="Live"
+                  target="_blank" data-project-btn>
+                  <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z" />
+                  </svg>
+                </a>
+              </div>
+              <div class="project-info">
+                <span class="project-category flex items-center justify-center text-center">FULL STACK</span>
+                <h3 class="project-title text-center text-sm">Real-time chat application</h3>
+              </div>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="FULLSTACK">
+              <div class="project-overlay"></div>
+              <div class="project-links">
+                <a href="#" data-link="https://github.com/KOUSHIKG04/MDoc-Doctor-AppointmentApplication" title="Github"
+                  class="project-btn github-btn" target="_blank" data-code-btn>
+                  <svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M10,0.3c-5.4,0-9.8,4.4-9.8,9.8c0,4.3,2.8,8,6.7,9.2c0.5,0.1,0.7-0.2,0.7-0.5c0-0.2,0-0.9,0-1.7c-2.7,0.6-3.3-1.3-3.3-1.3 c-0.4-1.1-1.1-1.4-1.1-1.4c-0.9-0.6,0.1-0.6,0.1-0.6c1,0.1,1.5,1,1.5,1c0.9,1.5,2.3,1.1,2.9,0.8c0.1-0.6,0.3-1.1,0.6-1.3 c-2.2-0.2-4.4-1.1-4.4-4.8c0-1.1,0.4-1.9,1-2.6C4.7,7,4.4,6,4.9,4.7c0,0,0.8-0.3,2.7,1c0.8-0.2,1.6-0.3,2.4-0.3c0.8,0,1.6,0.1,2.4,0.3 c1.9-1.3,2.7-1,2.7-1c0.5,1.3,0.2,2.3,0.1,2.5c0.6,0.7,1,1.5,1,2.6c0,3.7-2.3,4.6-4.4,4.8c0.3,0.3,0.6,0.9,0.6,1.8c0,1.3,0,2.4,0,2.7 c0,0.3,0.2,0.6,0.7,0.5c3.9-1.3,6.7-5,6.7-9.2C19.8,4.7,15.4,0.3,10,0.3z" />
+                  </svg>
+
+                </a>
+                <a href="#" title="Live" data-link="https://prescripto.vercel.app/" class="project-btn live-btn"
+                  target="_blank" data-project-btn>
+                  <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z" />
+                  </svg>
+
+                </a>
+              </div>
+
+              <div class="project-info">
+                <span class="project-category flex items-center justify-center text-center ">FULL STACK</span>
+                <h3 class="project-title text-center text-sm">Doctor appointment booking platform</h3>
+              </div>
+            </li>
+            <li class="project-item active" data-filter-item data-category="">
+              <div class="project-overlay"></div>
+              <div class="project-links">
+                <a href="#" data-link="https://github.com/KOUSHIKG04/NextJS-Learning" title="Github"
+                  class="project-btn github-btn" target="_blank" data-code-btn>
+                  <svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M10,0.3c-5.4,0-9.8,4.4-9.8,9.8c0,4.3,2.8,8,6.7,9.2c0.5,0.1,0.7-0.2,0.7-0.5c0-0.2,0-0.9,0-1.7c-2.7,0.6-3.3-1.3-3.3-1.3 c-0.4-1.1-1.1-1.4-1.1-1.4c-0.9-0.6,0.1-0.6,0.1-0.6c1,0.1,1.5,1,1.5,1c0.9,1.5,2.3,1.1,2.9,0.8c0.1-0.6,0.3-1.1,0.6-1.3 c-2.2-0.2-4.4-1.1-4.4-4.8c0-1.1,0.4-1.9,1-2.6C4.7,7,4.4,6,4.9,4.7c0,0,0.8-0.3,2.7,1c0.8-0.2,1.6-0.3,2.4-0.3c0.8,0,1.6,0.1,2.4,0.3 c1.9-1.3,2.7-1,2.7-1c0.5,1.3,0.2,2.3,0.1,2.5c0.6,0.7,1,1.5,1,2.6c0,3.7-2.3,4.6-4.4,4.8c0.3,0.3,0.6,0.9,0.6,1.8c0,1.3,0,2.4,0,2.7 c0,0.3,0.2,0.6,0.7,0.5c3.9-1.3,6.7-5,6.7-9.2C19.8,4.7,15.4,0.3,10,0.3z" />
+                  </svg>
+
+                </a>
+                <a href="#" title="Live" data-link="next-js-learning-liard-eight.vercel.app"
+                  class="project-btn live-btn" target="_blank" data-project-btn>
+                  <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z" />
+                  </svg>
+
+                </a>
+              </div>
+
+              <div class="project-info">
+                <span class="project-category flex items-center justify-center text-center ">FULL STACK</span>
+                <h3 class="project-title text-center text-sm">Next.js authentication</h3>
+              </div>
+            </li>
+            <li class="project-item active" data-filter-item data-category="FIGMA">
+              <div class="project-overlay"></div>
+              <div class="project-links">
+                <a href="#" data-link="" title="Github" class="project-btn github-btn" target="_blank" data-code-btn>
+                  <svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M10,0.3c-5.4,0-9.8,4.4-9.8,9.8c0,4.3,2.8,8,6.7,9.2c0.5,0.1,0.7-0.2,0.7-0.5c0-0.2,0-0.9,0-1.7c-2.7,0.6-3.3-1.3-3.3-1.3 c-0.4-1.1-1.1-1.4-1.1-1.4c-0.9-0.6,0.1-0.6,0.1-0.6c1,0.1,1.5,1,1.5,1c0.9,1.5,2.3,1.1,2.9,0.8c0.1-0.6,0.3-1.1,0.6-1.3 c-2.2-0.2-4.4-1.1-4.4-4.8c0-1.1,0.4-1.9,1-2.6C4.7,7,4.4,6,4.9,4.7c0,0,0.8-0.3,2.7,1c0.8-0.2,1.6-0.3,2.4-0.3c0.8,0,1.6,0.1,2.4,0.3 c1.9-1.3,2.7-1,2.7-1c0.5,1.3,0.2,2.3,0.1,2.5c0.6,0.7,1,1.5,1,2.6c0,3.7-2.3,4.6-4.4,4.8c0.3,0.3,0.6,0.9,0.6,1.8c0,1.3,0,2.4,0,2.7 c0,0.3,0.2,0.6,0.7,0.5c3.9-1.3,6.7-5,6.7-9.2C19.8,4.7,15.4,0.3,10,0.3z" />
+                  </svg>
+
+                </a>
+                <a href="#" title="Live"
+                  data-link="https://www.figma.com/design/JPyiy9pnS8Ywy9SlSyGUqu/OnlineClass?node-id=29-3&p=f"
+                  class="project-btn live-btn" target="_blank" data-project-btn>
+                  <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z" />
+                  </svg>
+
+                </a>
+              </div>
+
+              <div class="project-info">
+                <span class="project-category flex items-center justify-center text-center ">FIGMA</span>
+                <h3 class="project-title text-center text-sm">E-commerce</h3>
+              </div>
+            </li>
+            <li class="project-item active" data-filter-item data-category="BALSAMIQ">
+              <div class="project-overlay"></div>
+              <div class="project-links">
+                <a href="#" data-link="" title="Github" class="project-btn github-btn" target="_blank" data-code-btn>
+                  <svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M10,0.3c-5.4,0-9.8,4.4-9.8,9.8c0,4.3,2.8,8,6.7,9.2c0.5,0.1,0.7-0.2,0.7-0.5c0-0.2,0-0.9,0-1.7c-2.7,0.6-3.3-1.3-3.3-1.3 c-0.4-1.1-1.1-1.4-1.1-1.4c-0.9-0.6,0.1-0.6,0.1-0.6c1,0.1,1.5,1,1.5,1c0.9,1.5,2.3,1.1,2.9,0.8c0.1-0.6,0.3-1.1,0.6-1.3 c-2.2-0.2-4.4-1.1-4.4-4.8c0-1.1,0.4-1.9,1-2.6C4.7,7,4.4,6,4.9,4.7c0,0,0.8-0.3,2.7,1c0.8-0.2,1.6-0.3,2.4-0.3c0.8,0,1.6,0.1,2.4,0.3 c1.9-1.3,2.7-1,2.7-1c0.5,1.3,0.2,2.3,0.1,2.5c0.6,0.7,1,1.5,1,2.6c0,3.7-2.3,4.6-4.4,4.8c0.3,0.3,0.6,0.9,0.6,1.8c0,1.3,0,2.4,0,2.7 c0,0.3,0.2,0.6,0.7,0.5c3.9-1.3,6.7-5,6.7-9.2C19.8,4.7,15.4,0.3,10,0.3z" />
+                  </svg>
+
+                </a>
+                <a href="#" title="Live"
+                  data-link="https://github.com/KOUSHIKG04/BOOK.TRAIN__Balsamiq./blob/main/BOOK%20TRAIN%20.pdf"
+                  class="project-btn live-btn" target="_blank" data-project-btn>
+                  <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z" />
+                  </svg>
+
+                </a>
+              </div>
+
+              <div class="project-info">
+                <span class="project-category flex items-center justify-center text-center ">BALSAMIQ</span>
+                <h3 class="project-title text-center text-sm">Book train (wireframes)</h3>
+              </div>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="FRONTEND">
+              <div class="project-overlay"></div>
+              <div class="project-links">
+                <a href="#" data-link="https://github.com/KOUSHIKG04/Blog-Application" title="Github"
+                  class="project-btn github-btn" target="_blank" data-code-btn>
+                  <svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M10,0.3c-5.4,0-9.8,4.4-9.8,9.8c0,4.3,2.8,8,6.7,9.2c0.5,0.1,0.7-0.2,0.7-0.5c0-0.2,0-0.9,0-1.7c-2.7,0.6-3.3-1.3-3.3-1.3 c-0.4-1.1-1.1-1.4-1.1-1.4c-0.9-0.6,0.1-0.6,0.1-0.6c1,0.1,1.5,1,1.5,1c0.9,1.5,2.3,1.1,2.9,0.8c0.1-0.6,0.3-1.1,0.6-1.3 c-2.2-0.2-4.4-1.1-4.4-4.8c0-1.1,0.4-1.9,1-2.6C4.7,7,4.4,6,4.9,4.7c0,0,0.8-0.3,2.7,1c0.8-0.2,1.6-0.3,2.4-0.3c0.8,0,1.6,0.1,2.4,0.3 c1.9-1.3,2.7-1,2.7-1c0.5,1.3,0.2,2.3,0.1,2.5c0.6,0.7,1,1.5,1,2.6c0,3.7-2.3,4.6-4.4,4.8c0.3,0.3,0.6,0.9,0.6,1.8c0,1.3,0,2.4,0,2.7 c0,0.3,0.2,0.6,0.7,0.5c3.9-1.3,6.7-5,6.7-9.2C19.8,4.7,15.4,0.3,10,0.3z" />
+                  </svg>
+
+                </a>
+                <a href="#" title="Live" data-link="" class="project-btn live-btn" target="_blank" data-project-btn>
+                  <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z" />
+                  </svg>
+
+                </a>
+              </div>
+
+              <div class="project-info">
+                <span class="project-category flex items-center justify-center text-center ">FULL STACK</span>
+                <h3 class="project-title text-center text-sm">Blog application</h3>
+              </div>
+            </li>
+
+
+
+            <li class="project-item active" data-filter-item data-category="">
+              <div class="project-overlay"></div>
+              <div class="project-links">
+                <a href="#" data-link="https://github.com/KOUSHIKG04/Currency-Converter" title="Github"
+                  class="project-btn github-btn" target="_blank" data-code-btn>
+                  <svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M10,0.3c-5.4,0-9.8,4.4-9.8,9.8c0,4.3,2.8,8,6.7,9.2c0.5,0.1,0.7-0.2,0.7-0.5c0-0.2,0-0.9,0-1.7c-2.7,0.6-3.3-1.3-3.3-1.3 c-0.4-1.1-1.1-1.4-1.1-1.4c-0.9-0.6,0.1-0.6,0.1-0.6c1,0.1,1.5,1,1.5,1c0.9,1.5,2.3,1.1,2.9,0.8c0.1-0.6,0.3-1.1,0.6-1.3 c-2.2-0.2-4.4-1.1-4.4-4.8c0-1.1,0.4-1.9,1-2.6C4.7,7,4.4,6,4.9,4.7c0,0,0.8-0.3,2.7,1c0.8-0.2,1.6-0.3,2.4-0.3c0.8,0,1.6,0.1,2.4,0.3 c1.9-1.3,2.7-1,2.7-1c0.5,1.3,0.2,2.3,0.1,2.5c0.6,0.7,1,1.5,1,2.6c0,3.7-2.3,4.6-4.4,4.8c0.3,0.3,0.6,0.9,0.6,1.8c0,1.3,0,2.4,0,2.7 c0,0.3,0.2,0.6,0.7,0.5c3.9-1.3,6.7-5,6.7-9.2C19.8,4.7,15.4,0.3,10,0.3z" />
+                  </svg>
+
+                </a>
+                <a href="#" title="Live" data-link="https://koushikg04.github.io/Currency-Converter/"
+                  class="project-btn live-btn" target="_blank" data-project-btn>
+                  <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z" />
+                  </svg>
+
+                </a>
+              </div>
+
+              <div class="project-info">
+                <span class="project-category flex items-center justify-center text-center ">FULL STACK</span>
+                <h3 class="project-title text-center text-sm">Currency Converter</h3>
+              </div>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="">
+              <div class="project-overlay"></div>
+              <div class="project-links">
+                <a href="#" data-link="https://github.com/KOUSHIKG04/Tic-Tac-Toe" title="Github"
+                  class="project-btn github-btn" target="_blank" data-code-btn>
+                  <svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M10,0.3c-5.4,0-9.8,4.4-9.8,9.8c0,4.3,2.8,8,6.7,9.2c0.5,0.1,0.7-0.2,0.7-0.5c0-0.2,0-0.9,0-1.7c-2.7,0.6-3.3-1.3-3.3-1.3 c-0.4-1.1-1.1-1.4-1.1-1.4c-0.9-0.6,0.1-0.6,0.1-0.6c1,0.1,1.5,1,1.5,1c0.9,1.5,2.3,1.1,2.9,0.8c0.1-0.6,0.3-1.1,0.6-1.3 c-2.2-0.2-4.4-1.1-4.4-4.8c0-1.1,0.4-1.9,1-2.6C4.7,7,4.4,6,4.9,4.7c0,0,0.8-0.3,2.7,1c0.8-0.2,1.6-0.3,2.4-0.3c0.8,0,1.6,0.1,2.4,0.3 c1.9-1.3,2.7-1,2.7-1c0.5,1.3,0.2,2.3,0.1,2.5c0.6,0.7,1,1.5,1,2.6c0,3.7-2.3,4.6-4.4,4.8c0.3,0.3,0.6,0.9,0.6,1.8c0,1.3,0,2.4,0,2.7 c0,0.3,0.2,0.6,0.7,0.5c3.9-1.3,6.7-5,6.7-9.2C19.8,4.7,15.4,0.3,10,0.3z" />
+                  </svg>
+
+                </a>
+                <a href="#" title="Live" data-link="https://koushikg04.github.io/Tic-Tac-Toe/"
+                  class="project-btn live-btn" target="_blank" data-project-btn>
+                  <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z" />
+                  </svg>
+
+                </a>
+              </div>
+
+              <div class="project-info">
+                <span class="project-category flex items-center justify-center text-center ">FULL STACK</span>
+                <h3 class="project-title text-center text-sm">Tic Tac Toe</h3>
+              </div>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="">
+              <div class="project-overlay"></div>
+              <div class="project-links">
+                <a href="#" data-link="https://github.com/KOUSHIKG04/QR-Code" title="Github"
+                  class="project-btn github-btn" target="_blank" data-code-btn>
+                  <svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M10,0.3c-5.4,0-9.8,4.4-9.8,9.8c0,4.3,2.8,8,6.7,9.2c0.5,0.1,0.7-0.2,0.7-0.5c0-0.2,0-0.9,0-1.7c-2.7,0.6-3.3-1.3-3.3-1.3 c-0.4-1.1-1.1-1.4-1.1-1.4c-0.9-0.6,0.1-0.6,0.1-0.6c1,0.1,1.5,1,1.5,1c0.9,1.5,2.3,1.1,2.9,0.8c0.1-0.6,0.3-1.1,0.6-1.3 c-2.2-0.2-4.4-1.1-4.4-4.8c0-1.1,0.4-1.9,1-2.6C4.7,7,4.4,6,4.9,4.7c0,0,0.8-0.3,2.7,1c0.8-0.2,1.6-0.3,2.4-0.3c0.8,0,1.6,0.1,2.4,0.3 c1.9-1.3,2.7-1,2.7-1c0.5,1.3,0.2,2.3,0.1,2.5c0.6,0.7,1,1.5,1,2.6c0,3.7-2.3,4.6-4.4,4.8c0.3,0.3,0.6,0.9,0.6,1.8c0,1.3,0,2.4,0,2.7 c0,0.3,0.2,0.6,0.7,0.5c3.9-1.3,6.7-5,6.7-9.2C19.8,4.7,15.4,0.3,10,0.3z" />
+                  </svg>
+
+                </a>
+                <a href="#" title="Live" data-link="https://koushikg04.github.io/QR-Code/" class="project-btn live-btn"
+                  target="_blank" data-project-btn>
+                  <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z" />
+                  </svg>
+
+                </a>
+              </div>
+
+              <div class="project-info">
+                <span class="project-category flex items-center justify-center text-center ">FULL STACK</span>
+                <h3 class="project-title text-center text-sm">OR-Code generator</h3>
+              </div>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="FRONTEND">
+              <div class="project-overlay"></div>
+              <div class="project-links">
+                <a href="#" data-link="https://github.com/KOUSHIKG04/Quizz-App" title="Github"
+                  class="project-btn github-btn" target="_blank" data-code-btn>
+                  <svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M10,0.3c-5.4,0-9.8,4.4-9.8,9.8c0,4.3,2.8,8,6.7,9.2c0.5,0.1,0.7-0.2,0.7-0.5c0-0.2,0-0.9,0-1.7c-2.7,0.6-3.3-1.3-3.3-1.3 c-0.4-1.1-1.1-1.4-1.1-1.4c-0.9-0.6,0.1-0.6,0.1-0.6c1,0.1,1.5,1,1.5,1c0.9,1.5,2.3,1.1,2.9,0.8c0.1-0.6,0.3-1.1,0.6-1.3 c-2.2-0.2-4.4-1.1-4.4-4.8c0-1.1,0.4-1.9,1-2.6C4.7,7,4.4,6,4.9,4.7c0,0,0.8-0.3,2.7,1c0.8-0.2,1.6-0.3,2.4-0.3c0.8,0,1.6,0.1,2.4,0.3 c1.9-1.3,2.7-1,2.7-1c0.5,1.3,0.2,2.3,0.1,2.5c0.6,0.7,1,1.5,1,2.6c0,3.7-2.3,4.6-4.4,4.8c0.3,0.3,0.6,0.9,0.6,1.8c0,1.3,0,2.4,0,2.7 c0,0.3,0.2,0.6,0.7,0.5c3.9-1.3,6.7-5,6.7-9.2C19.8,4.7,15.4,0.3,10,0.3z" />
+                  </svg>
+
+                </a>
+                <a href="#" title="Live" data-link="https://koushikg04.github.io/Quizz-App/"
+                  class="project-btn live-btn" target="_blank" data-project-btn>
+                  <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z" />
+                  </svg>
+
+                </a>
+              </div>
+
+              <div class="project-info">
+                <span class="project-category flex items-center justify-center text-center ">FULL STACK</span>
+                <h3 class="project-title text-center text-sm">Quizz app</h3>
+              </div>
+            </li>
+
+          </ul>
+          <div class="project-scroll-controls">
+            <button class="scroll-btn scroll-left">
+              <ion-icon name="chevron-back-outline"></ion-icon>
+            </button>
+            <button class="scroll-btn scroll-right">
+              <ion-icon name="chevron-forward-outline"></ion-icon>
+            </button>
+          </div>
+
+          <div class="more-projects-section">
+            <p class="more-projects-text">Explore more of my work which are not deployed like <b> "Gemini clone</b>
+              ,<b>Food delivery app</b>,<b> &nbsp;E-Commerce</b>, <b>Note Keeper</b>, <b>Emojipedia "</b> etc.., and see
+              how I've applied various technologies to solve
+              real-world problems.</p>
+            <a href="https://github.com/koushikg04" class="more-projects-btn " target="_blank">
+              <ion-icon name="logo-github" class="mt-1"></ion-icon> <span class="flex items-center">GITHUB</span>
+              <span> <ion-icon name="arrow-forward-outline" class="mt-1"></ion-icon></span>
+            </a>
+          </div>
+        </section>
+      </article>
+
+      <!--
+      - #BLOG
+    -->
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+        <header>
+          <h2 class="h2 article-title">RESUME</h2>
+        </header>
+
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">EDUCATION</h3>
+          </div>
+
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title flex">
+                PRESIDENCY UNIVERSITY, BENGALURU <span class="flex items-center justify-center -mt-1 ml-2">(2020 -
+                  2024)</span>
+              </h4>
+              <span class="-mt-2">B TECH (INFORMATION SCIENCE AND ENGINEERING)</span>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                SRI ADICHUNCHANAGRI INDEPENDENT PU COLLAGE
+              </h4>
+              <span class="-mt-2">2018 - 2020</span>
+            </li>
+          </ol>
+        </section>
+
+
+
+        <section class="skill">
+          <h3 class="h3 skills-title">SKILLS</h3>
+
+          <ul class="skills-list content-card">
+
+          </ul>
+        </section>
+      </article>
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about active " data-page="about">
+        <header>
+          <h2 class="h2 article-title">ABOUT ME</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Hai, I'm KOUSHIK G,
+            a passionate Full Stack Web Developer with a keen focus on crafting robust and scalable backend systems.
+            While
+            skilled in
+            both front-end and back-end development, I thrive in architecting efficient core functionalities that power
+            seamless
+            user experiences.
+          </p>
+
+          <p>
+            With a strong foundation in JavaScript, React.js, Node.js, and database management, I specialize in building
+            scalable
+            web applications, optimizing performance, and implementing secure authentication mechanisms.
+          </p>
+
+          <p>
+            Beyond backend development, I have hands-on experience in UI/UX design, ensuring that technical excellence
+            meets
+            intuitive user experience. My projects have received positive feedback, showcasing my ability to bridge
+            technical
+            expertise with user-centric design principles.
+          </p>
+        </section>
+
+        <!--
+        - service
+      -->
+
+        <section class="service">
+          <h3 class="h3 service-title">WHAT I'M DOING?</h3>
+
+          <ul class="service-list">
+            <li class="service-item">
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title text-center">
+                  <div class="service-icon-box mb-3">
+                    <img src="./assets/images/icon-dev.svg" alt="mobile app icon" width="30" height="30" />
+                  </div>FULL STACK DEVELOPMENT
+                </h4>
+                <p class="service-item-text">
+                  Crafting robust and scalable backend systems that power
+                  seamless user experiences.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title text-center">
+                  <div class="service-icon-box mb-3">
+                    <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="30" height="30" />
+                  </div>WEB DEVELOPEMENT
+                </h4>
+
+                <p class="service-item-text">
+                  Building the future by developing Web Applications using a
+                  blend of front-end and back-end technologies.
+                </p>
+              </div>
+            </li>
+
+
+          </ul>
+        </section>
+
+        <!--
+        - testimonials
+      -->
+
+        <!-- <section class="testimonials">
+          <h3 class="h3 testimonials-title">Testimonials</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img
+                    src="./assets/images/avatar-1.png"
+                    alt="Suv Patra"
+                    width="60"
+                    data-testimonials-avatar
+                  />
+                </figure>
+
+                <h4
+                  class="h4 testimonials-item-title"
+                  data-testimonials-title
+                >
+                  Suv Patra
+                </h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Vishnu's full-stack development transformed my online
+                    presence. Their modern UI design and user-friendly website
+                    attracted visitors, while the integrated CMS empowered me
+                    to manage content with ease. The seamless payment system
+                    facilitated hundreds of appointments, and Vishnu's SEO
+                    expertise drove significant traffic growth, ultimately
+                    boosting my revenue. I highly recommend Vishnu's
+                    comprehensive web development skills!
+                  </p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </section> -->
+
+        <!--
+        - testimonials modal
+      -->
+        <div class="modal-container" data-modal-container>
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img />
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon" />
+            </div>
+
+            <div class="modal-content">
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 Feb, 2024</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were
+                  very pleased with the work done. She has a lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum
+                  dolor sit amet, ullamcous cididt consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels
+                  dolore magnarels alia.
+                </p>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <!--
+        - clients
+      -->
+
+        <!-- <section class="clients">
+          <h3 class="h3 clients-title">Clients</h3>
+
+          <ul class="clients-list has-scrollbar">
+            <li class="clients-item">
+              <a href="#">
+                <img
+                  src="./assets/images/logo-1-color.png"
+                  alt="client logo"
+                />
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img
+                  src="./assets/images/logo-2-color.png"
+                  alt="client logo"
+                />
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img
+                  src="./assets/images/logo-3-color.png"
+                  alt="client logo"
+                />
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img
+                  src="./assets/images/logo-4-color.png"
+                  alt="client logo"
+                />
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img
+                  src="./assets/images/logo-5-color.png"
+                  alt="client logo"
+                />
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img
+                  src="./assets/images/logo-6-color.png"
+                  alt="client logo"
+                />
+              </a>
+            </li>
+          </ul>
+        </section> -->
+      </article>
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+        <header>
+          <h2 class="h2 article-title">CONTACT</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.013292073073!2d77.5945623148229!3d12.9715989908551!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670f3b1d1e7%3A0x1e7b3e1b1b4b3b1d!2sBengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1633663660003!5m2!1sen!2sin&gestureHandling=cooperative"
+              width="100" height="50" loading="lazy"></iframe>
+
+          </figure>
+        </section>
+        <section>
+          <div class="flex justify-center items-center gap-4">
+
+            <div class="mt-3">
+
+
+              <ul class="social-list" style="transform: scale(1.25);">
+
+                <li class="social-item">
+                  <a href="https://www.linkedin.com/in/gkoushik27/" class="social-link">
+                    <ion-icon name="logo-linkedin" title="linkedin" size="large"></ion-icon>
+                  </a>
+                </li>
+
+                <li class="social-item">
+                  <a href="mailto:koushikgoffical04@gmail.com" class="social-link">
+                    <ion-icon name="mail" size="large"></ion-icon>
+                  </a>
+                </li>
+                <li class="social-item">
+                  <a href="+919483713171" class="social-link">
+                    <ion-icon name="call" size="large"></ion-icon>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!-- <section class="contact-form">
+
+          <form action="https://formspree.io/f/moqgrgvw" method="post" class="form" data-form>
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="FULL NAME" required data-form-input />
+
+              <input type="email" name="email" class="form-input" placeholder="EMAIL ADDRESS" required
+                data-form-input />
+            </div>
+
+            <textarea name="message" rows="10" class="form-input" placeholder="YOUR MESSAGE HERE" required
+              data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>SEND MESSAGE</span>
+            </button> -->
+        </form>
+        </section>
+      </article>
+    </div>
+  </main>
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
