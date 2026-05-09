@@ -2245,3 +2245,62 @@ textarea.form-input::-webkit-resizer {
 .filter-btn.active {
   color: #f9d66e;
 }
+
+@media (max-width: 768px) {
+  .info_more-btn {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .name .role {
+    display: block;
+    margin-top: 4px;
+  }
+}
+
+.status-social-row {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+.status-social-row .social-wrap {
+  min-width: 0;
+}
+
+.status-social-row .social-list {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding-left: 0;
+  padding-bottom: 0;
+  margin: 0;
+  transform: scale(1.05);
+  transform-origin: left center;
+}
+
+.status-social-row .social-item {
+  flex: 0 0 auto;
+}
+
+.status-social-row .social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .status-social-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .status-social-row .social-list {
+    flex-wrap: wrap;
+    gap: 10px;
+    transform: none;
+  }
+}

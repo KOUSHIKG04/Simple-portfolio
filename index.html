@@ -24,6 +24,25 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+  <style>
+    .skills-item {
+      margin-bottom: 16px;
+    }
+
+    .skills-item:last-child {
+      margin-bottom: 0;
+    }
+
+    .skills-item .timeline-text {
+      line-height: 1.7;
+    }
+
+    .service-icon-box ion-icon {
+      color: var(--orange-yellow-crayola);
+    }
+  </style>
+
 </head>
 
 <body>
@@ -44,52 +63,52 @@
 
         <div class="info-content">
           <h1 class="name" title="KOUSHIK G">
-            KOUSHIK G | FULL STACK DEV
+            KOUSHIK G <span class="role">- FULL STACK DEVELOPER</span>
           </h1>
 
-          <div class="flex items-center gap-4">
-            <p class="title"> <span class="dot mr-2"></span>OPEN TO WORK </p>
-            <div class="mt-1">
-              <ul class="social-list" style="transform: scale(1.1);">
-
-                <li class="social-item ">
-                  <a href="https://www.linkedin.com/in/gkoushik27/" data-link class="social-link" target="_blank">
+          <div class="status-social-row">
+            <p class="title"><span class="dot mr-2"></span>OPEN TO WORK</p>
+          
+            <div class="social-wrap">
+              <ul class="social-list">
+                <li class="social-item">
+                  <a href="https://www.linkedin.com/in/gkoushik27/" class="social-link" target="_blank">
                     <ion-icon name="logo-linkedin" title="linkedin"></ion-icon>
                   </a>
                 </li>
-
+          
                 <li class="social-item">
                   <a href="https://github.com/koushikg04/" class="social-link" target="_blank">
                     <ion-icon name="logo-github" title="github"></ion-icon>
                   </a>
                 </li>
-
+          
                 <li class="social-item">
                   <a href="mailto:koushikgoffical04@gmail.com" class="social-link">
                     <ion-icon name="mail"></ion-icon>
                   </a>
                 </li>
-
-                <li class="social-item ">
-                  <a href="https://drive.google.com/file/d/1qiO1xppU5eJyRDBv9K5RqPbP84b9Z7Mn/view?usp=sharing"
-                    class="social-link" target="_blank">
-                    <ion-icon name="document"></ion-icon> </a>
+          
+                <li class="social-item">
+                  <a href="https://drive.google.com/file/d/1qiO1xppU5eJyRDBv9K5RqPbP84b9Z7Mn/view?usp=sharing" class="social-link"
+                    target="_blank">
+                    <ion-icon name="document"></ion-icon>
+                  </a>
                 </li>
-
-                <li class="social-item ">
+          
+                <li class="social-item">
                   <a href="https://www.google.com/maps/place/bengaluru" class="social-link" target="_blank">
                     <ion-icon name="location"></ion-icon>
                   </a>
                 </li>
-
-
               </ul>
             </div>
           </div>
         </div>
 
         <button class="info_more-btn" data-sidebar-btn>
-          <span>MERN</span>
+          <!-- <span>React • Node • Electron</span> -->
+          <span> • </span>
           <ion-icon name="chevron-down"></ion-icon>
         </button>
       </div>
@@ -447,6 +466,7 @@
         - #RESUME
       -->
 
+
       <article class="resume" data-page="resume">
         <header>
           <h2 class="h2 article-title">RESUME</h2>
@@ -467,7 +487,7 @@
                 PRESIDENCY UNIVERSITY, BENGALURU <span class="flex items-center justify-center -mt-1 ml-2">(2020 -
                   2024)</span>
               </h4>
-              <span class="-mt-2">B TECH (INFORMATION SCIENCE AND ENGINEERING)</span>
+              <span class="-mt-2">B.Tech in Information Science and Engineering</span>
             </li>
             <li class="timeline-item">
               <h4 class="h4 timeline-item-title">
@@ -478,13 +498,129 @@
           </ol>
         </section>
 
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="briefcase-outline"></ion-icon>
+            </div>
 
+            <h3 class="h3">EXPERIENCE</h3>
+          </div>
+
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title flex">
+                Frontend Developer Intern - Nexstem <span class="flex items-center justify-center -mt-1 ml-2">(Jul 2025
+                  - Present)</span>
+              </h4>
+              <span class="-mt-2">Bengaluru | React.js, TypeScript, Turborepo, Electron, Cypress, Zustand, TanStack
+                Query</span>
+              <p class="timeline-text">
+                Built and maintained scalable frontend modules for real-time EEG/EMG applications using React and
+                Electron.
+              </p>
+              <p class="timeline-text">
+                Created a reusable UI component library and design system within a monorepo architecture, improving
+                consistency and maintainability.
+              </p>
+              <p class="timeline-text">
+                Implemented Zustand-based state management and efficient data handling for real-time updates, caching,
+                and hardware workflows.
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title flex">
+                Backend Developer Intern - MeetMux <span class="flex items-center justify-center -mt-1 ml-2">(Jun
+                  2025)</span>
+              </h4>
+              <span class="-mt-2">Bengaluru | Node.js, Express.js, PostgreSQL, Postman</span>
+              <p class="timeline-text">
+                Architected RESTful APIs and microservices for real-time comment functionality.
+              </p>
+              <p class="timeline-text">
+                Integrated PostgreSQL and Sequelize ORM for optimized data operations and stronger backend stability.
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title flex">
+                Open Source Contributor - Leadlly <span class="flex items-center justify-center -mt-1 ml-2">(Feb 2025 -
+                  Mar 2025)</span>
+              </h4>
+              <span class="-mt-2">Frontend Contribution | React, TypeScript, Figma</span>
+              <p class="timeline-text">
+                Crafted dashboard and batch management solutions with a responsive, pixel-perfect interface translated
+                from Figma prototypes.
+              </p>
+            </li>
+          </ol>
+        </section>
+
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="code-slash-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">HIGHLIGHTED PROJECTS</h3>
+          </div>
+
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Doctor Appointment Application | Prescripto</h4>
+              <span class="-mt-2">React.js, Express.js, MongoDB, Tailwind CSS</span>
+              <p class="timeline-text">
+                Built a scalable full-stack appointment platform with role-based dashboards for patients, doctors, and
+                admins.
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Real-time Chat Application | Convo</h4>
+              <span class="-mt-2">React.js, Express.js, Zustand, Socket.IO, MongoDB, daisyUI</span>
+              <p class="timeline-text">
+                Developed a reliable real-time messaging platform with secure authentication, scalable state management,
+                and improved data synchronization.
+              </p>
+            </li>
+          </ol>
+        </section>
 
         <section class="skill">
           <h3 class="h3 skills-title">SKILLS</h3>
 
           <ul class="skills-list content-card">
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Programming Languages</h5>
+              </div>
+              <p class="timeline-text">JavaScript, TypeScript, SQL</p>
+            </li>
 
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Web Technologies</h5>
+              </div>
+              <p class="timeline-text">React.js, TailwindCSS, React Router, Zustand, Axios, Node.js, Express.js, REST
+                APIs, Mongoose, PostgreSQL, bcrypt, JWT, Electron</p>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Tools, Cloud & Platforms</h5>
+              </div>
+              <p class="timeline-text">Git, GitHub, Postman, Cloudinary, Figma, Balsamiq</p>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Additional Focus</h5>
+              </div>
+              <p class="timeline-text">Scalable frontend systems, reusable UI components, monorepo workflows, real-time
+                applications, cross-platform development with Electron and React Native, NativeWind, TanStack Query,
+                PostHog Analytics</p>
+            </li>
           </ul>
         </section>
       </article>
@@ -498,33 +634,31 @@
           <h2 class="h2 article-title">ABOUT ME</h2>
         </header>
 
+
         <section class="about-text">
           <p>
-            Hai, I'm KOUSHIK G, a passionate Full Stack Developer with a strong focus on building robust and scalable
-            web
-            applications. While proficient in both frontend and backend technologies, I excel in architecting efficient
-            core
-            functionalities that enhance performance, security, and user experience.
+            Hi, I'm KOUSHIK G, a Full Stack Developer focused on building scalable frontend systems and robust backend
+            applications across web, desktop, and mobile platforms.
           </p>
 
           <p>
-            With expertise in JavaScript, React.js, Node.js, and database management, I specialize in developing
-            scalable solutions,
-            optimizing system performance, and implementing secure authentication mechanisms.
+            I work with React.js, TypeScript, Node.js, Express.js, PostgreSQL, MongoDB, Electron, and modern frontend
+            tooling to create maintainable, high-performance products. I enjoy designing reusable UI systems, clean
+            state management with Zustand, and scalable architectures that improve development speed and product
+            quality.
           </p>
 
           <p>
-            Beyond backend development, I have hands-on experience in UI/UX design, ensuring that technical excellence
-            aligns with
-            intuitive and user-friendly interfaces. My projects have been well-received, reflecting my ability to merge
-            technical
-            expertise with user-centric design principles.
+            I also have hands-on experience with React Native, NativeWind, and product analytics using PostHog. My
+            recent work includes real-time applications, Electron-based interfaces, component libraries, monorepo
+            workflows, and production-ready user experiences built with performance, reliability, and usability in mind.
           </p>
         </section>
 
         <!--
         - service
       -->
+
 
         <section class="service">
           <h3 class="h3 service-title">WHAT I'M DOING?</h3>
@@ -533,35 +667,61 @@
             <li class="service-item">
               <div class="service-content-box">
                 <h4 class="h4 service-item-title text-center">
-                  <div class="service-icon-box mb-3">
-                    <img src="./assets/images/icon-dev.svg" alt="mobile app icon" width="30" height="30" />
+                  <div class="service-icon-box mb-3 flex justify-center items-center">
+                    <ion-icon name="layers-outline" style="font-size: 30px;"></ion-icon>
                   </div>FULL STACK DEVELOPMENT
                 </h4>
                 <p class="service-item-text">
-                  Crafting robust and scalable backend systems that power
-                  seamless user experiences.
+                  Building scalable end-to-end applications with modern frontend frameworks, APIs, databases, and secure
+                  authentication systems.
                 </p>
               </div>
             </li>
 
             <li class="service-item">
-
-
               <div class="service-content-box">
                 <h4 class="h4 service-item-title text-center">
-                  <div class="service-icon-box mb-3">
-                    <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="30" height="30" />
-                  </div>WEB DEVELOPEMENT
+                  <div class="service-icon-box mb-3 flex justify-center items-center">
+                    <ion-icon name="color-wand-outline" style="font-size: 30px;"></ion-icon>
+                  </div>SCALABLE FRONTEND SYSTEMS
                 </h4>
 
                 <p class="service-item-text">
-                  Building the future by developing Web Applications using a
-                  blend of front-end and back-end technologies.
+                  Creating reusable UI components, maintainable design systems, and scalable frontend modules with
+                  React, TypeScript, Zustand, and modern tooling.
                 </p>
               </div>
             </li>
 
+            <li class="service-item">
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title text-center">
+                  <div class="service-icon-box mb-3 flex justify-center items-center">
+                    <ion-icon name="phone-portrait-outline" style="font-size: 30px;"></ion-icon>
+                  </div>DESKTOP & MOBILE APPS
+                </h4>
 
+                <p class="service-item-text">
+                  Developing cross-platform experiences with Electron, React Native, and NativeWind for fast,
+                  responsive, and product-ready interfaces.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title text-center">
+                  <div class="service-icon-box mb-3 flex justify-center items-center">
+                    <ion-icon name="analytics-outline" style="font-size: 30px;"></ion-icon>
+                  </div>PRODUCT ENGINEERING
+                </h4>
+
+                <p class="service-item-text">
+                  Improving usability, performance, and product insights with analytics tools, real-time data flows, and
+                  maintainable engineering practices.
+                </p>
+              </div>
+            </li>
           </ul>
         </section>
 
@@ -748,7 +908,7 @@
                   </a>
                 </li>
                 <li class="social-item">
-                  <a href="+919483713171" class="social-link">
+                  <a href="tel:+919483713171" class="social-link">
                     <ion-icon name="call" size="large"></ion-icon>
                   </a>
                 </li>
