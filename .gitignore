@@ -1,2 +1,8 @@
 codealike.json
 .qodo
+node_modules
+.next
+out
+dist
+.env*
+!.env.example
